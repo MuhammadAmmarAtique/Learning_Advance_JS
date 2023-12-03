@@ -5,7 +5,7 @@
 // alert(3+3);  //We are using node not browser so it will not work
 
 let age= 18;
-let name= "Amamr";
+let name= "Ammar";
 let value =true;
 let reponse= undefined;
 let score = null;
