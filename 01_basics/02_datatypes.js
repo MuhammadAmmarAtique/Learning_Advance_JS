@@ -1,3 +1,4 @@
+// 02) Different Datatypes in JS
 //  node 01_basics/02_datatypes.js
 
 "use strict"; //Treat all JS code as a newer version

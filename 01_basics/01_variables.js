@@ -1,3 +1,4 @@
+// 01)Variables in JS 
 //  node 01_basics/01_variables.js
 
 const accountId = 1234;
