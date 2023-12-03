@@ -10,4 +10,4 @@ let value =true;
 let reponse= undefined;
 let score = null;
 
-console.log(typeof null);  //datatype of null is object resaon is strange behaviour of JS or Problem in JS many opinions about it,
+console.log(typeof null);  //datatype of null is object resaon behind this is the strange behaviour of JS or it's a  Problem in JS, There are many opinions about it,
