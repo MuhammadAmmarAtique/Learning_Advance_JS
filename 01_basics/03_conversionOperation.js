@@ -77,7 +77,16 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 // console.log(gameCounter);
-// console.log("3"+"4"+1+2);
 
+
+// Whenever we add string with number, string is always given priority
+let a=1;
+let b=2;
+let c="3";
+let d=a+b+c;
+console.log(d);
+
+let e=2;
+console.log(e+d);  
 
 // These type of question may be asked in mcqs, interview but in roduction they are useless.
