@@ -1,4 +1,4 @@
-// Strings ins JS
+// Strings in JS
 // node 01_basics/07_strings.js
 
 let name = new String("Ammar Atiq");
