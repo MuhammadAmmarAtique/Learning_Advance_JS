@@ -1,7 +1,7 @@
 //1)Defining a symbol
 let mysymbol =Symbol("key 1");
 
-// 2)defining an object and adding symbol as a key in object
+// 2)Defining an object(object literals method) and adding symbol as a key in object
 let JsLearner= {
     name:"Ammar",
     "Full name": "Muhammad Ammar Atique",

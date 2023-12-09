@@ -10,9 +10,9 @@ let arr2 = ['rafeh',`ammar`,"moiz"];
 // let arr3 = arr1.concat(arr2);
 // console.log(arr3);
 
-
+//Merging arrays using spread operator
 //spread operator 
-// (ya opearor dono arrays ko spread karaay ga aur phir haam isko join kardeingy aik new array mai)
+// (ya opearotor dono arrays ko spread karaay ga aur phir haam isko join kardeingy aik new array mai)
 
 let arr3= [...arr1 , ...arr2];
 console.log(arr3);
