@@ -26,13 +26,24 @@ let result = Sum(2, 21);
 
 // 3)
 function loginUserMessage(username){
-   
-        
-        return `${username} just logged in`
-  
+
+   console.log(username);
+   console.log(typeof username);
+
+     if (typeof username === 'string' && username.trim() !== '') 
+      {
+        console.log(`${username} just logged in`); 
+        return;
+      } 
+  else
+    {
+        console.log("Invalid input.");
+        return;
+    }
 }
 
-console.log(loginUserMessage(1))
+// loginUserMessage("Ammar");
 
 
-//here i want no one can enter number and empty value so do it
+
+
