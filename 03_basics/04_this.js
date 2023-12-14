@@ -18,3 +18,4 @@ user.PricePaid= 1000;
 user.greeting();
 
 
+console.log(this); //output of this in node is empty object while in browser is browsers window object 
