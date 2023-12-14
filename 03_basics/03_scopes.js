@@ -31,3 +31,23 @@ for (var i = 0; i < 5; i++) {
     var j=21;                   //var vs let
 }
 // console.log(`outside: ${j}`);
+
+// 4) Nested Scope
+
+function outer() 
+{
+
+    let a=5;
+
+    function inner() 
+    {
+        let b = 10;
+        console.log(a);
+    }
+    
+    // console.log(b);
+    inner();
+    
+}
+
+outer();
