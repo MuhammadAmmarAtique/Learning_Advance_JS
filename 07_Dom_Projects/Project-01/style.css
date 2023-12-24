@@ -1,3 +1,36 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+
+body
+{
+    padding-top: 2rem;
+
+}
+
+.parentbox{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.childFlexbox{
+    display: flex;
+     justify-content: center; 
+     align-items: center;
+}
+
 .box
 {
     height: 100px;

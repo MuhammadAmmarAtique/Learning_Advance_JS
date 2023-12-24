@@ -11,16 +11,19 @@
 <body>
 
 
-    <div  style="display: flex; flex-direction: column; justify-content: center; align-items: center;" >
+    <div class="parentbox">
+        <!-- flex item 1 -->
         <h1>Color Scheme Switcher</h1>
 
-        <div style="display: flex; justify-content: center; align-items: center;">
-            <div data-color="yellow" class="yellow box"></div>
-            <div data-color="grey" class="grey box"></div>
-            <div data-color="green" class="green box"></div>
-            <div data-color="blue" class="blue box"></div>
+        <!-- flex item 2 + (This is also a Flexbox) -->
+        <div class="childFlexbox">
+            <div data-color="yellow" class="yellow box" id="yellow"></div>
+            <div data-color="grey" class="grey box" id="grey"></div>
+            <div data-color="green" class="green box" id="green"></div>
+            <div data-color="blue" class="blue box" id="blue"></div>
         </div>
 
+        <!-- flex item 3 -->
         <h4>Try clicking on one of the colors above
             to change the background color of this page!</h4>
 
