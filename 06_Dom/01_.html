@@ -7,6 +7,7 @@
 </head>
 <body>
  
+    <!-- a -->
     <ol class="parent">
         <li class="days dayOne">Monday</li>
         <li class="days">Tuesday</li>
@@ -17,6 +18,17 @@
         <li class="days">Sunday</li>
     </ol>
 
+    <!-- b) .innerText vs .TextContent vs .innerHtml -->
+    <h1 id="heading"> Hello G! <span style="display: none;">Hidden Text</span> </h1>
+
+    <!--  Write this in browser console to know the difference (mthis text may contain some mistake, 
+        in sense of small and big letter) 
+
+        let heading = document.querySelector('heading'); 
+        heading.innerText;
+        heading.TextContent;heading.innerHtml;
+
+    -->
 
 <script>
 
