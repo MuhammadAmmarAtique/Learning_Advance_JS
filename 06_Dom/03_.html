@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit and Remove Elements in DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+    
+
+ <script>
+    // a)Adding elelment in dom
+
+    function AddLanguage (PL) {
+        let li = document.createElement('li');
+        li.innerText = `${PL}`;
+        let language = document.querySelector('.language');
+        language.appendChild(li);}
+
+    AddLanguage ("Swift");
+    AddLanguage ("Java");
+    AddLanguage ("Ruby");
+    AddLanguage ("Python");
+
+    // b)Editing element in dom
+
+//1
+    let lang= document.querySelector('.language');
+    // changing programming language from "Swift" to "C++"
+    lang.childNodes[3].innerHTML = "C++";  //here i wrote index of 3 because its nodelist and nodelist also count space as "text"
+//2
+let li= document.querySelector('li:nth-child(4)')
+li.outerHTML =  "<li> Bhailang </li>"
+
+
+// c)Deleting element in dom
+let lastLi = document.querySelector('ul li:last-child')
+// console.log(lastLi);
+lastLi.remove();
+  
+
+ </script>   
+
+
+
+</body>
+</html>
