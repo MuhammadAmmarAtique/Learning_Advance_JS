@@ -1,0 +1,23 @@
+.box
+{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.grey
+{
+    background-color: grey;
+}
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
