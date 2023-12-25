@@ -1,0 +1,76 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100vh;
+width: 100vw;
+}
+/* Main styling starts here */
+body{
+    background-color:#212121; 
+    color:#fff;
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top:2rem ;
+}
+
+
+#wrapper
+{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#wrapper h1
+{
+    font-size: 2.5rem;
+}
+
+.top-text
+{
+    gap: 0.5rem;
+}
+
+form
+{
+    gap: 0.5rem;
+}
+.ResultSection
+{
+    gap:1.5rem;
+}
+
+.topNo
+{
+    color: greenyellow;
+}
+.guesses
+{
+    color: yellow;
+}
+.RemainingGuesses
+{
+    color: red;
+}
+.lowOrHi{
+    color: goldenrod;
+}
+#result
+{
+    color: rgb(163, 113, 212);
+}
