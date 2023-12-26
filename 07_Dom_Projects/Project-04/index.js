@@ -1,3 +1,7 @@
+// This code readibility and maintainbibility is not good
+// Try to make functions for evcery task in the project
+
+
 let form = document.querySelector("form");
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 let PreviousGuesses = [];
@@ -12,8 +16,7 @@ form.addEventListener("submit", (e) => {
   let DisplayPreviousGuesses = document.querySelector(".guesses");
   let UserGuess = parseInt(document.querySelector("#guessField").value);
 
-  if (
-    UserGuess === "" || UserGuess <= 0 ||UserGuess > 100 || isNaN(UserGuess) ) 
+  if ( UserGuess === "" || UserGuess <= 0 ||UserGuess > 100 || isNaN(UserGuess) ) 
     {
     msg.textContent = "Please enter a valid guess!";
     // emptying guess field
