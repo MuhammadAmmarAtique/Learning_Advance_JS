@@ -1,0 +1,39 @@
+<!-- 1)Set interval -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set interval</title>
+</head>
+<body>
+
+    <h1>Ammar Atiq</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+<script>
+
+//set interval
+let myInterval;
+
+document.querySelector('#start').addEventListener("click",()=>{
+   myInterval= setInterval((str)=>
+   {
+    console.log(`${str} is going to become top Developer`);
+   } , 1000, "Ammar" );
+
+})
+
+//clear interval
+
+document.querySelector('#stop').addEventListener("click",()=>{
+   clearInterval(myInterval);
+
+})
+
+
+</script>
+    
+</body>
+</html>

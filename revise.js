@@ -208,11 +208,4 @@
 
 // val1 <= val2 ? console.log("ok") : console.log("not ok");
 
-console.log(1);
 
-setTimeout(() => { console.log(2);}, 0);
-
-console.log(3);
-
-setTimeout(() => 
-{console.log(4);}, 0);
