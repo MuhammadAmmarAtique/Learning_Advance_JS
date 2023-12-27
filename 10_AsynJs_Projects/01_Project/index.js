@@ -1,6 +1,7 @@
 const StartButton = document.querySelector('#start');
 const StopButton = document.querySelector('#stop');
 let changingBg;
+console.log(changingBg);
 
 //1) Generating RandomColor every time user clicks on start button
 StartButton.addEventListener("click",()=>{

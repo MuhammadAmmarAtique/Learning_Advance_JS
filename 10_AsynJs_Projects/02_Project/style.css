@@ -1,0 +1,28 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+table,
+th,
+td {
+  border: 1px solid #e7e7e7;
+  border-collapse: collapse;
+}
+.project {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
