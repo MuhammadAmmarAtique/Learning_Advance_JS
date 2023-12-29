@@ -207,5 +207,3 @@
 
 
 // val1 <= val2 ? console.log("ok") : console.log("not ok");
-
-
