@@ -21,14 +21,8 @@ xhr.onreadystatechange = function () {
 <img src="${data.avatar_url}" alt="My pic" style="width: 100%; height: 90%; object-fit: cover; object-position: center;">
 <p>${data.name}</p>
 </div>
-
-`;
-
-
-
-
-  }
-};
+`;  
+}};
 
 
 

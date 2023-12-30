@@ -207,3 +207,28 @@
 
 
 // val1 <= val2 ? console.log("ok") : console.log("not ok");
+
+// console.log(1);
+// console.log(2);
+
+// setTimeout(() => {
+// console.log(3);
+    
+// }, 2000);
+
+// console.log(4);
+
+// fetch("https://api.github.com/users/MuhammadAmmarAtique")
+// .then((response)=>{
+//   return response.json();
+// })
+// .then((data)=>{
+//         console.log(data.name);
+// })
+
+// console.log(5);
+
+
+
+
+
