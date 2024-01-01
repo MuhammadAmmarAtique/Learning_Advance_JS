@@ -1,4 +1,3 @@
-//Prototype
 
 function UserDetails(username, age, salary) {
     this.username =username;
@@ -8,7 +7,7 @@ function UserDetails(username, age, salary) {
     return this;
 }
 
-//Adding a prototype in above function
+//Added a increment-function in above UserDetails prototype
 UserDetails.prototype.increment = function(){
     this.age++;
     console.log(this.age);
@@ -22,3 +21,4 @@ console.log(user2);
 
 //calling that function which is added in prototype
 user1.increment()
+user2.increment()
