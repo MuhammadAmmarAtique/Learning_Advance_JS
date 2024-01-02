@@ -1,7 +1,8 @@
 //Function as Object and "new" keyword
 //In JS everything is a Object (e.g,Array,String,Function)
 
-function UserDetails(username, age, salary) {
+
+function UserDetails(username, age, salary) {  //here function is behaving like object
     this.username =username;
     this.age =age;
     this.salary =salary;
