@@ -16,6 +16,7 @@ function UserInformation(Username,email,password) {
     // aur execute ho kar khatam ho raha hai tooh is case mai haam .call() use karengaay aur kaheengaay kaay values
     // UserInformation ka this mai store karoo
 
+    //Using call and passing this
     SetUserName.call(this,Username); //yahan "this" UserInfromation ka "this" hai
     this.email = email;
     this.password = password;
