@@ -1,5 +1,13 @@
 //.Call() in JS
 
+function SetUserName(Username) {
+    this.name = Username;
+    // console.log("SetUserName function called");
+
+    return this;
+}
+
+
 function UserInformation(Username,email,password) {
 
     // SetUserName(Username);
@@ -15,12 +23,6 @@ function UserInformation(Username,email,password) {
     return this;
 }
 
-function SetUserName(Username) {
-    this.name = Username;
-    console.log("SetUserName function called");
-
-    return this;
-}
 
 
 let ammar = new UserInformation("Ammar","ammar123@gmail.com",123)
