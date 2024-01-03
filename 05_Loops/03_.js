@@ -22,6 +22,20 @@ for (const substring of LearningDeveloper) {
 }
 
 
+//c- Running For-of loop for Object
+//we can run for-of loop for object using this syntax
+
+let myObj ={
+    name:"Ammar",
+    age:22
+}
+
+for (const [key,value] of Object.entries(myObj)) {
+    console.log(`${key}:${value}`);
+}
+
+
+
 //2)Maps in JS  
 // similar to js object here values are also stored as key value pairs
 
