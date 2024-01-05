@@ -1,4 +1,4 @@
-//Getters, Setters
+//Getters, Setters (Latest syntax "Class")
 
 class User {
 

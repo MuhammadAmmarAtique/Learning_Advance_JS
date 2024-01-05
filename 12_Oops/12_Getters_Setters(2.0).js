@@ -1,3 +1,5 @@
+//old syntax (As in the behind the scene of "CLASS" syntax this is what going on)
+
 function User(name, email) {
     this._name = name;
     this._email = email;
