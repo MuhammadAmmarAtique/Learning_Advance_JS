@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: #313131; color: #fff;">
+
+<button id="green" type="button">Green</button>
+<button id="blue" type="button">Blue</button>
+<button id="red" type="button">Red</button>
+
+
+
+
+
+<script>
+ // Closure
+    function Outer() {
+        const name = "Ammar";
+
+        function Inner() {
+            console.log(name);
+        }
+
+        return Inner;
+    }
+
+    const myFunc = Outer();
+    // myFunc();
+
+ // Closure Practical Example:- (Change background color of body)
+
+// a) Below code failed "DRY" principle
+// b)Yes we can use loop to change backgroung color but to understand closure we will not use it
+
+//  document.querySelector('#green').onclick = function () {
+//      document.body.style.backgroundColor = "green"; 
+// }
+
+// document.querySelector('#blue').onclick = function () {
+//      document.body.style.backgroundColor = "blue"; 
+// }
+
+
+// document.querySelector('#red').onclick = function () {
+//      document.body.style.backgroundColor = "red"; 
+// }
+
+// c) Using the concept of "Lexical Scoping" and "Closure" to change background Color
+
+function ChangeColor(color) {
+    let BodyColor = color;
+
+    function Color()
+    {
+        document.body.style.backgroundColor = BodyColor;
+    }
+
+    return Color;
+}
+
+document.querySelector('#red').onclick = ChangeColor("red");
+document.querySelector('#blue').onclick = ChangeColor("blue");
+document.querySelector('#green').onclick = ChangeColor("green");
+
+
+
+
+</script>    
+</body>
+</html>
