@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lexical Scoping</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+
+    <h1 style="text-align: center;">Lexical Scoping</h1>
+
+
+<script>
+    //1) Lexical Scoping (To learn Closures first we have to understand lexical scoping)
+     
+    // e.g 1 
+    // function Outer() {
+    // let name = "Ammar";
+
+    //     function Inner() {
+    //         console.log("inner",name);
+    //     }
+    //     Inner();
+
+    // }
+    // Outer();
+
+    // e.g 2 
+    function Parent() {
+    let name = "Atique";
+
+        function ChildOne() {
+            console.log(name);
+
+            let ChildOneName = "Ammar";
+        }
+
+        function ChildTwo() {
+            console.log(ChildOneName);
+        }
+
+        ChildOne();
+        ChildTwo();
+
+        console.log(ChildOneName);
+    }
+    Parent();
+
+    //Lexical Scoping ko samjhanay ka asaaan tariqa:
+    // 1)Bachaay parent saay cheez laay sakty hain
+    // 2)Bahi Bahi ko cheez nhi deta
+    // 3)Bachaay parent ko bhi cheez nahi detaay
+
+</script>
+
+
+  </body>
+</html>
